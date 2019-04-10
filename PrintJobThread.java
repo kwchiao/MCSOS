@@ -20,7 +20,7 @@ class PrintJobThread implements Runnable{
         try {
             int p = printerManager.request();
             try {
-                BufferedWriter wr = new BufferedWriter(new FileWriter("PRINTER" + (p+1), true));
+                BufferedWriter wr = new BufferedWriter(new FileWriter("printer/PRINTER" + (p+1), true));
 
                 for (int i = 0; i < fifo.fileLength; i++){
                     StringBuffer data = new StringBuffer();

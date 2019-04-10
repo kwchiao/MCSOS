@@ -24,7 +24,7 @@ public class MCSOS {
         }
 
         for (int i = 1; i <= NUMBER_OF_USERS; i++) { 
-            user[i-1] = new Thread(new UserThread("all/USER" + i, disk, diskManager, directoryManager, printer, printerManager));
+            user[i-1] = new Thread(new UserThread("users/USER" + i, disk, diskManager, directoryManager, printer, printerManager));
             user[i-1].start();
         } 
 
