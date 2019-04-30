@@ -2,7 +2,7 @@
 
 MCSOS is a Java multithreading program that simulates multiple users to save and print files. Files can be stored on any disk and printed on any printer by any user.  
 
-The diagram is shown below to illustrates the workflow:
+The diagram is shown below to illustrate the workflow:
 
 ![diagram](image/mcsos.svg "Flow chart")
 
